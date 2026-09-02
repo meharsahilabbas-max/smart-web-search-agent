@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { ArrowUpRight, FileSearch } from "lucide-react";
+export default function Sources() { return <main className="page"><div className="eyebrow">Evidence library</div><h1>Sources belong to a question.</h1><p className="hero-copy">Accepted sources are kept with the investigation that produced them, so every citation has context and a trail back to the live web.</p><div className="source-library empty-state"><FileSearch size={25}/><h3>Open a research brief</h3><p>Inspect source quality, relevance, snippets, and citation links from any completed investigation.</p><Link href="/history" className="button button-dark">View history <ArrowUpRight size={15}/></Link></div></main>; }
